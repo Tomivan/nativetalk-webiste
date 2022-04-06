@@ -1,4 +1,5 @@
 import React from "react";
+import Nativetalk from "../../assets/images/nativetalk.png";
 import "./nativetalk.styles.css";
 
 const NativeTalk = () => {
@@ -13,7 +14,7 @@ const NativeTalk = () => {
                     <button className="learn">Learn More</button>
             </div>
             <div className="nativetalk-right">
-                <img src={} alt="" />
+                <img src={Nativetalk} alt="" className="nativetalk second"/>
             </div>
         </div>
     )

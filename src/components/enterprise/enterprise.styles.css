@@ -1,0 +1,13 @@
+.nativetalk-enterprise{
+    margin-top: 5%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.enterprise-right{
+    width: 40vw;
+}
+.third{
+    height: 40vh;
+    width: 20vw;
+}

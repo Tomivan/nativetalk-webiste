@@ -1,0 +1,17 @@
+.customers{
+    text-align: center;
+    margin: 3%;
+    border-radius: 5px;
+    padding: 2em;
+    background: #fafafa;
+}
+.get-started{
+    height: 5vh;
+    width: 10vw;
+    color: #ffffff;
+    background: #3ebf0f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em;
+    margin-top: 3%;
+}

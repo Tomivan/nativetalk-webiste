@@ -6,17 +6,17 @@ import './nav.styles.css';
 const Nav = () => {
     return(
         <div className="nav">
-            <img src={Logo} alt="The native talk logo" />
+            <Link to="/"><img src={Logo} alt="The native talk logo" /></Link>
             <ul className="unorderd">
-                <li>Home</li>
+                <Link to="/" className='link'><li>Home</li></Link>
                 <li>Product</li>
                 <li>Resources</li>
-                <li>Pricing</li>
-                <li>About us</li>
+                <Link to="/pricing" className='link'><li>Pricing</li></Link>
+                <Link to="/about-us" className='link'><li>About us</li></Link>
             </ul>
             <div className="nav-buttons">
-                <button className="sign-in"><Link className="link" to="signin">Sign in</Link></button>
-                <button className='create'><Link className="link" to="/signup">Create free account</Link></button>
+                <Link className="link" to="/signin"><button className="sign-in">Sign in</button></Link>
+                <Link className="link" to="/signup"><button className='create'>Create free account</button></Link>
             </div>
         </div>
     )

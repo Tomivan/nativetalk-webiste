@@ -1,0 +1,26 @@
+.smart-phone-number{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background: #fafafa;
+}
+.smart-left{
+    margin-top: 3%;
+}
+.smart-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.smart-button{
+    height: 5vh;
+    width: 10vw;
+    color: #ffffff;
+    background: #3ebf0f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+.smart-right img{
+    height: 40vh;
+}

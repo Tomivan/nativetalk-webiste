@@ -1,56 +1,24 @@
 .main{
+    display: flex;
+    justify-content: space-between;
     background: #e6f7e0;
-    height: 85vh;
-    padding-top: 1em;
-    text-align: center;
+    height: auto;
+    padding: 2em;
 }
 h1{
-    font-weight: bold;
+    font-weight: 700;
 }
-.pick{
-    margin-top: 5%;
-}
-.pick p{
-    color: #828282;
-}
-.select{
-    display: flex;
-    justify-content: center;
-}
-select{
-    width: 20vw;
+.generate{
     height: 5vh;
-    border: 1px solid #cbcbcb;
-    border-radius: 5px;
-    background: none;
-    margin-right: 1%;
-}
-.reserve{
-    height: 5vh;
-    width: 10vw;
+    width: 22vw;
     color: #ffffff;
     background: #3ebf0f;
-    margin-left: 1%;
     border: none;
     border-radius: 5px;
+    padding: 0.3em;
+    margin-left: 1%;
 }
-
-@media screen and (max-width: 767px) {
-    .main{
-        height: 60vh;
-    }
-    h1{
-        font-size: 22px;
-    }
-    .select{
-        flex-direction: column;
-        align-items: center;
-    }
-    select{
-        width: 70vw;
-    }
-    .reserve{
-        width: 70vw;
-        margin-top: 2%;
-    }
+.main-right img{
+    height: 50vh;
+    border-radius: 10px;
 }

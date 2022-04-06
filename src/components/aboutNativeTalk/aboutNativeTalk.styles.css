@@ -1,0 +1,9 @@
+.about-nativetalk{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 3%;
+}
+.about-nativetalk-right img{
+    height: 40vh;
+}

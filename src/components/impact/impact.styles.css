@@ -1,0 +1,30 @@
+.impact{
+    padding: 2em;
+    margin-top: 5%;
+    background: #fafafa;
+}
+.impact h2{
+    text-align: center;
+}
+.impacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.impact-info{
+    display: flex;
+    width: 25vw;
+}
+.impact-info img{
+    height: 6vh;
+    padding: 0.5em;
+    background: #eff5fb;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+h3{
+    font-size: 36px;
+}
+.impact-details p{
+    margin-top: -5%;
+}

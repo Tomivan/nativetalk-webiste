@@ -1,0 +1,23 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+}
+.cards h3{
+    font-size: 24px;
+}
+.cards-card{
+    border: none;
+    border-radius: 16px;
+    margin-right: 1%;
+    background: #ffffff;
+    padding: 1em;
+    width: 23vw;
+}
+.card-top, .card-details{
+    display: flex;
+}
+.card-top img, .card-details img {
+    margin-right: 2%;
+    height: 5vh;
+}
