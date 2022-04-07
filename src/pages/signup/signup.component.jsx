@@ -1,12 +1,15 @@
 import React from "react";
+import Group from "../../assets/images/Group.png";
 import './signup.styles.css';
 
 const Signup = () => {
     return(
         <div className="signup">
-            <img src="" alt="" />
-            <h2>Create your account</h2>
+            <div className="signup-nav">
+                <img src={Group} alt="The official nativetalk logo" /> 
+            </div>
             <form className="form">
+                <h2>Create your account</h2>
                 <label>First Name</label>
                 <input type="text" placeholder="Michael" />
                 <label>Last Name</label>

@@ -27,6 +27,9 @@
 .media-icon{
     margin-right: 3%;
 }
+.footer-item .link{
+    color: #000000;
+}
 @media screen and (max-width: 767px) {
     .footer-logo{
         padding: 0.3em;

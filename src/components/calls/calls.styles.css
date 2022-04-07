@@ -1,0 +1,9 @@
+.calls{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    padding: 2em;
+}
+.calls-left{
+    margin-top: 3%;
+}

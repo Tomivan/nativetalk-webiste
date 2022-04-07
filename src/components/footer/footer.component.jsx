@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router"
 import Logo from "../../assets/images/Group.png";
 import Facebook from '../../assets/images/facebook.png';
 import Twitter from '../../assets/images/twitter.png';
@@ -12,13 +13,13 @@ const Footer = () => {
                 <img src={Logo} alt="" />
                 <div className="footer-item">
                     <p><span>Products</span></p>
-                    <p>NativeTalk Personal</p>
-                    <p>NativeTalk Business</p>
-                    <p>NativeTalk Enterprise</p>
+                    <Link to="/personal-home-page" className="link"><p>NativeTalk Personal</p></Link>
+                    <Link to="/small-business-home-page" className="link"><p>NativeTalk Business</p></Link>
+                    <Link to="/enterprise-home-page" className="link"><p>NativeTalk Enterprise</p></Link>
                 </div>
                 <div className="footer-item">
                     <p><span>Plans and pricing</span></p>
-                    <p>Direct Link </p>
+                    <Link to="/pricing" className="link"><p>Direct Link </p></Link>
                 </div>
                 <div className="footer-item">
                     <p><span>Resources</span></p>
@@ -28,7 +29,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-item">
                     <p><span>Company</span></p>
-                    <p>About us</p>
+                    <Link to="/about-us" className="link"><p>About us</p></Link>
                     <p>Careers</p>
                     <p>Contact</p>
                 </div>

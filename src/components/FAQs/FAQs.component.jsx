@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import './FAQs.styles.css';
 
 const FAQs = () => {
@@ -90,7 +91,7 @@ const FAQs = () => {
                         </div>
                     </div>
                 </div>
-                <button className="see-all">See all FAQs</button>
+                <Link to="/frequently-asked-questions" className="link"><button className="see-all">See all FAQs</button></Link>
             </div>
         </div>
     )

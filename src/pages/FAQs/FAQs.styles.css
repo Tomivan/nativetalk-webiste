@@ -1,0 +1,12 @@
+.faq h1{
+    padding-top: 2em;
+    background: #f2fbef;
+    text-align: center;
+    height: 40vh;
+}
+.faq .accordion-body, .faq .accordion-button{
+    background: #ffffff !important;
+}
+.faq .questions{
+    text-align: center;
+}

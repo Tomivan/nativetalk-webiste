@@ -21,7 +21,7 @@ const Pages = () => {
             <About path="/about-us" />
             <ConfirmAccount path="/confirm-account" />
             <Demo path="/demo" />
-            <EnterpriseHome path="/home-page-enterprise" />
+            <EnterpriseHome path="/enterprise-home-page" />
             <FAQPage path="/frequently-asked-questions" />
             <ForgotPassword path="/forgot-password" />
             <OTP path="/otp" />

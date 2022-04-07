@@ -1,0 +1,19 @@
+.personal-main{
+    display: flex;
+    justify-content: space-between;
+    background: #e6f7e0;
+    height: auto;
+    padding: 2em;
+}
+.download{
+    height: 5vh;
+    width: 15vw;
+    color: #ffffff;
+    background: #3ebf0f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+.personal-right img{
+    height: 50vh;
+}

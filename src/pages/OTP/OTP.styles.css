@@ -1,0 +1,40 @@
+.otp{
+    display: flex;
+    background: #3ebf0f;
+    height: 100vh;
+}
+.otp-left{
+    background: #ffffff;
+    width: 60vw;
+    padding: 1em;
+}
+.otp-form{
+    margin: 15% 0 0 25%;
+}
+.otp-input{
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    margin-bottom: 5%;
+}
+.otp input{
+    height: 6vh;
+    width: 3vw;
+}
+.submit{
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #3ebf0f;
+    height: 5vh;
+    width: 25vw;
+    margin-bottom: 3%;
+}
+.signin-link{
+    margin-left: 40%;
+}
+.send-again{
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+}
