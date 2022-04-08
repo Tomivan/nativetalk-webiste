@@ -1,4 +1,5 @@
 import React from "react";
+import Nativetalk from "../../assets/images/nativetalk.png"
 import './white-labelled.styles.css';
 
 const Whitelabelled = () => {
@@ -11,7 +12,7 @@ const Whitelabelled = () => {
                 <button className="contact">Contact Sales</button>
             </div>
             <div className="white-labelled-right">
-                <img src="" alt="" />
+                <img src={Nativetalk} alt="" className="nativetalk"/>
             </div>
         </div>
     )

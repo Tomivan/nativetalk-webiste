@@ -9,23 +9,23 @@ const DoNativetalk = () => {
             <div className="do-nativetalk-cards">
                 <div className="do-nativetalk-card">
                     <img src={Features} alt="" className="features-icon"/>
-                    <h4>Virtual phone numbers<br /> at your fingertips</h4>
+                    <h5>Virtual phone numbers<br /> at your fingertips</h5>
                     <p>Generate virtual phone numbers at your convenience for<br /> 
                     making calls or creating another WhatsApp account 😄</p>
                 </div>
                 <div className="do-nativetalk-card">
                     <img src={Features} alt="" className="features-icon"/>
-                    <h4>Temporary numbers</h4>
+                    <h5>Temporary numbers</h5>
                     <p>Create phone numbers for specific purposes like weddings<br /> or birthdays and delete when done.</p>
                 </div>
                 <div className="do-nativetalk-card">
                     <img src={Features} alt="" className="features-icon"/>
-                    <h4>Customised inbound<br /> call rates</h4>
+                    <h5>Customised inbound<br /> call rates</h5>
                     <p>Get paid when people call you at your personalized rates.</p>
                 </div>
                 <div className="do-nativetalk-card">
                     <img src={Features} alt="" className="features-icon"/>
-                    <h4>Make unlimited local<br /> and international calls</h4>
+                    <h5>Make unlimited local<br /> and international calls</h5>
                     <p>Make local and international calls at the cheapest call rates<br /> and via your internet.</p>
                 </div>
             </div>

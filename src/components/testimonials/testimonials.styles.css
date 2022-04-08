@@ -1,20 +1,35 @@
 .testimonials{
-    border: 1px solid #3ebf0f;
+    background: #fafafa;
+    margin-top: 5%;
+    padding: 2em;
+}
+.testimonials h2{
+    text-align: center;
+}
+.testimonials-info{
+    display: flex;
+    margin: 3% 0 0 15%;
+}
+.testimonials-left{
+    background: #ffffff;
     border-radius: 8px;
-    width: 50vw;
-    margin-left: 25%;
+    width: 65vw;
     padding: 1em;
+}
+.testimonials-left p{
+    margin-left: 5%;
+}
+.tesimonials-left p:nth-child(2) {
+    font-weight: bold;
 }
 .open-quote{
     height: 10vh;
-    margin-left: -70%;
 }
-.testimonials h2{
-    margin-top: -5%;
+.testimonials-right{
+    margin-left: -25%;
 }
-.close-quote{
-    height: 10vh;
-    margin-left: 70%;
+.testimonial-image{
+    height: 50vh;
 }
 @media screen and (max-width: 767px) {
     .testimonials{

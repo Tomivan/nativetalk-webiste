@@ -1,0 +1,30 @@
+.customised{
+    text-align: center;
+    background: #f2fbef;
+}
+.customised h1{
+    padding-top: 1em;
+}
+.customised-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.customised-form input,
+.customised-form select{
+    width: 40vw;
+}
+textarea{
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    width: 40vw;
+    height: 50vh;
+}
+textarea::placeholder{
+    padding-left: 1em;
+}
+.customised button{
+    width: 15vw;
+    margin-top: 3%;
+}

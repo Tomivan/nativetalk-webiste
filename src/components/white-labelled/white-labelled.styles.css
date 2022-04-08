@@ -1,0 +1,17 @@
+.white-labelled{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+.white-labelled h2{
+    margin-top: 5%;
+}
+.contact{
+    height: 5vh;
+    width: 15vw;
+    color: #ffffff;
+    background: #3ebf0f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em;
+}

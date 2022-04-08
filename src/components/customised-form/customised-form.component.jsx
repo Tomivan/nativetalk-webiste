@@ -3,9 +3,9 @@ import './customised-form.styles.css';
 
 const CustomisedForm = () => {
     return(
-        <div className="">
-            <h2>Get a customised solution for<br /> your enterprise</h2>
-            <form className="form">
+        <div className="customised">
+            <h1>Get a customised solution for<br /> your enterprise</h1>
+            <form className="customised-form">
                 <input type="text" placeholder="Full Name" />
                 <input type="email" placeholder="Work Email" />
                 <input type="number" placeholder="Phone Number (Optional)" />
@@ -14,7 +14,7 @@ const CustomisedForm = () => {
                 <select>
                     <value>Company Size</value>
                 </select>
-                <textarea></textarea>
+                <textarea placeholder="Tell us more about your company"></textarea>
                 <button className="submit">Submit</button>
             </form>
         </div>

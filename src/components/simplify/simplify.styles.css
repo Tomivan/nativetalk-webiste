@@ -1,0 +1,24 @@
+.simplify{
+    text-align: center;
+    margin-top: 5%;
+}
+.simplify-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0 0 8%;
+}
+.simplify-card{
+    display: flex;
+    width: 42vw;
+    height: 20vh;
+    padding: 1em;
+    margin: 0 3% 1% 0;
+    text-align: left;
+}
+.simplify-icon{
+    background: #eff5fb;
+    border-radius: 5px;
+    padding: 0.5em;
+    height: 12vh;
+    margin: 0 3% 3% 0;
+}
