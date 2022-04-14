@@ -3,3 +3,136 @@
 body{
     font-family: 'Encode sans';
 }
+
+@media screen  and (max-width:768px){
+    .signin-left, .forgot-left, .otp-left, .confirm-left{
+        width: 100vw;
+    }
+    input, select, .login, .signup .create, .continue, .submit, .return{
+        width: 50vw;
+    }
+    .password-link{
+        margin-left: 27%;
+    }
+    .signup .form{
+        width: 65vw;
+    }
+    .forgot-left, .confirm-info{
+        font-size: 13px;
+    }
+    .otp-form, .signin-link, .form, .confirm-info{
+        margin-left: 15%;
+    }
+    .otp-input{
+        width: 12vw;
+        margin-right: 5%;
+    }
+    .nav, ul, .nav-buttons, .main, .connected, .nativetalk-business, .nativetalk-enterprise, 
+    .impacts, .smart-phone-number, .footer-above{
+        flex-direction: column;
+    }
+    .nav{
+        text-align: center;
+    }
+    .sign-in{
+        width: 40vw;
+    }
+    .generate, .nativetalk, .connected-right, .nativetalk-left{
+        width: 85vw;
+    }
+    .main-left{
+        text-align: center;
+    }
+    .main-right img{
+        height: 30vh;
+        margin-top: 5%;
+    }
+    .learn, .see-all, .smart-button, .get-started, .footer-above img{
+        width: 40vw;
+    }
+    .second, .smart-right img{
+        margin-top: 3%;
+    }
+    .enterprise-right{
+        width: 85vw;
+        margin-top: 3%;
+    }
+    .impact-info{
+        width: 70vw;
+    }
+    .sign-in, .create{
+        margin-bottom: 3%;
+    }
+    .nav img{
+        height: 6vh;
+        margin-bottom: 5%;
+    }
+    li{
+        padding-bottom: 1em;
+    }
+    .personal-main, .calls, .get-started-component, .small-business-main, .testimonials-info,
+    .enterprise-main, .demo-details, .white-labelled, .about-nativetalk, .cards{
+        flex-direction: column;
+    }
+    .download, .customised button{
+        width: 50vw;
+    }
+    .personal-right img, .small-business-right img, .testimonial-image{
+        margin-top: 5%;
+    }
+    .do-nativetalk-card, .nativetalk-button, .schedule, .customer-card{
+        width: 80vw;
+    }
+    .benefits-card{
+        width: 80vw;
+        font-size: 10px;
+    }
+    .features-card{
+        width: 80vw;
+        font-size: 14px;
+    }
+    .open-quote{
+        margin-left: 0%;
+    }
+    .testimonials-left{
+        margin-left: -25%;
+        font-size: 10px;
+        width: 85vw;
+    }
+    .simplify-card{
+        width: 90vw;
+        font-size: 11px;
+    }
+    .customer-icon{
+        width: 12vw;
+    }
+    .white-labelled-left{
+        font-size: 11px;
+    }
+    .contact{
+        width: 40vw;
+        margin-bottom: 5%;
+    }
+    .customised-form input, .customised-form select, .customised-form textarea
+    .customised img{
+        width: 80vw;
+    }
+    .about-nativetalk-left, .commitment{
+        font-size: 13px;
+    }
+    .featured-images{
+        flex-direction: column;
+        margin-left: 30%;
+        width: 40vw;
+    }
+    .featured{
+        height: auto;
+    }
+    .featured-images img{
+        margin-bottom: 5%;
+    }
+    .cards-card{
+        width: 80vw;
+        margin: 0 0 5% 10%;
+    }
+}
