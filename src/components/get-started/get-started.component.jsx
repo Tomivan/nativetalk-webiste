@@ -1,6 +1,6 @@
 import React from "react";
 import Dash from "../../assets/images/dash.png";
-import Nativetalk from "../../assets/images/nativetalk.png";
+import Fingers from "../../assets/images/fingers.png";
 import './get-started.styles.css';
 
 const GetStarted = () => {
@@ -27,7 +27,7 @@ const GetStarted = () => {
                 </div>
             </div>
             <div className="get-started-right">
-                <img src={Nativetalk} alt="" className="nativetalk fourth"/>
+                <img src={Fingers} alt="" className="nativetalk fourth"/>
             </div>
         </div>
     )

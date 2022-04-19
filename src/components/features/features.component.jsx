@@ -5,6 +5,9 @@ import Analytics from "../../assets/images/analytics.png";
 import Infinity from "../../assets/images/infinity.png";
 import Voice from "../../assets/images/voice.png";
 import Call from "../../assets/images/call.png";
+import Forwarding from "../../assets/images/forwarding.png";
+import Hunting from "../../assets/images/hunting.png";
+import Queuing from "../../assets/images/queuing.png";
 import './features.styles.css';
 
 const Features = () => {
@@ -62,13 +65,13 @@ const Features = () => {
                     appears on every incoming call. </p>
                 </div>
                 <div className="features-card">
-                    <img src={Feature} alt="" className="feature-icon"/>
+                    <img src={Forwarding} alt="" className="feature-icon"/>
                     <h5>Call Forwarding</h5>
                     <p>Offline or unavailable? Forward your calls<br /> 
                     to phone numbers of your choice.</p>
                 </div>
                 <div className="features-card">
-                    <img src={Feature} alt="" className="feature-icon"/>
+                    <img src={Hunting} alt="" className="feature-icon"/>
                     <h5>Call hunting</h5>
                     <p>Never miss a call from customers again.<br /> 
                     Forward calls to multiple phone numbers<br /> 
@@ -76,7 +79,7 @@ const Features = () => {
                     answered.</p>
                 </div>
                 <div className="features-card">
-                    <img src={Feature} alt="" className="feature-icon"/>
+                    <img src={Queuing} alt="" className="feature-icon"/>
                     <h5>Call queuing</h5>
                     <p>Minimize customer wait time by automating<br /> 
                     your calls to ring on multiple devices at the<br /> 

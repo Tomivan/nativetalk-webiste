@@ -1,5 +1,8 @@
 import React from "react";
 import Main from "../../assets/images/main.png";
+import Slice from "../../assets/images/slice.png";
+import Fivestar from "../../assets/images/fivestar.png";
+import LordFrank from "../../assets/images/lordfrank.png";
 import { Link } from "@reach/router"
 import './enterprise-main.styles.css';
 
@@ -15,6 +18,11 @@ const EnterpriseMain = () => {
                     <Link to="/demo" className="link"><button className="schedule">Schedule a Demo</button></Link>
                     <p>or Contact Sales</p>
                 </div>
+                <div className="featured-images">
+                <img src={Slice} alt="the slice brand logo" />
+                <img src={Fivestar} alt="the fivestar brand logo" />
+                <img src={LordFrank} alt="the lordfrank brand logo" />
+            </div>
             </div>
             <div className="enterprise-main-right">
                 <img src={Main} alt="a woman making a call in her stall" />
